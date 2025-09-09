@@ -1,0 +1,82 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<link rel="stylesheet" href="~/css/indexstyling.css" />
+
+
+
+<div class="header">
+	<center><h1 class="Welcome">Welcome!!</h1></center>
+</div>
+
+<p class="explaination">
+	<b>	Welcome to the Contract Monthly Claim System. We are pleased to introduce a range of features designed to simplify and enhance your workflow.
+	Please use the list below for better understanding:</b>
+	</p>
+
+<center>
+	<h5 style="color:darkred;">Quick Submission Claim</h5>
+    Lecturers no longer need to complete paper forms or email spreadsheets—claims can now be submitted quickly and easily online with just a few clicks.
+	<br />The system is efficient, intuitive, and ensures all necessary information is accurately recorded.
+</center>
+
+
+<center>
+    <br />
+
+
+    <h5 style="color:darkred;">Automated Calculations</h5>
+    The system automatically calculates your total hours worked multiplied by your hourly rate,
+    <br />reducing human error and ensuring that payment amounts are always correct and consistent.
+</center>
+<br />
+
+
+<center>
+    <h5 style="color:darkred;">Upload Supporting Documents</h5>
+    Employees no longer need to deliver documents in person.
+    <br />You can securely upload contracts, timesheets, or proof of work directly online,
+    <br />making document submission faster, safer, and more convenient.
+</center>
+<br />
+
+
+<center>
+    <h5 style="color:darkred;">Transparency</h5>
+    The system allows you to track the status of claims in real time.
+    <br />You will be notified when your claim is submitted, verified, approved, or rejected,
+    <br />giving you complete visibility and peace of mind.
+</center>
+<br />
+
+
+<center>
+    <h5 style="color:darkred;">Time Saving</h5>
+    By replacing manual paperwork with an automated platform, you save hours of administrative effort.
+    <br />This gives lecturers more time to focus on teaching and students, while coordinators can concentrate on managing workflows efficiently.
+</center>
+<br />
+
+<center>
+    <h5 style="color:darkred;">Secure</h5>
+    All information is stored securely, ensuring confidentiality and compliance with data protection standards.
+</center>
+</p>
+
+
+
+<h3 style="color:darkred;">How to get started?</h3>
+<p class="text-center">The link below is to log you into the system according to your respectible role Lecturer or Programme Coordinator/Academic Manager </p>
+
+<div class=" center-buttons">
+<a href="@Url.Action("Register", "Account")">
+	<button type="button">Register</button>
+</a>
+
+<a href="@Url.Action("Login", "Account")">
+	<button type="button">Login</button>
+</a>
+</div>
+
+

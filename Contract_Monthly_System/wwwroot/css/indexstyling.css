@@ -1,0 +1,82 @@
+﻿body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+.Welcome {
+    color: black;
+    font-family:Broadway
+}
+
+.explain {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 12px;
+ 
+    font-size: 1.05rem;
+}
+
+    .explain h5 {
+        margin-top: 20px;
+        font-size: 1.2rem;
+        font-weight: bold;
+        color: #007bff;
+    }
+
+.nav-item {
+    align-content: center;
+    color: red;
+
+}
+h3 {
+    text-align: center;
+    margin-top: 40px;
+    color: blue;
+}
+    h5 {
+    font-family:Bahnschrift;
+    font-size: 22px !important;
+    font-weight: bold;
+    color: grey;
+    align-content:center;
+}
+
+button {
+    background: red;
+    color: white;
+    border: none;
+    padding: 5px 50px;
+    border-radius: 200px;
+    margin: 55px;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+    button:hover {
+        background: #0056b3;
+        transform: scale(1.05);
+    }
+
+
+.center-buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+    .header {
+ 
+    padding: 40px 20px;
+    color: white;
+    text-align: center;
+    border-radius: 0 0 20px 20px;
+ 
+}
+
+    .header h1 {
+        font-size: 3rem;
+        margin: 0;
+        font-weight: bold;
+    }

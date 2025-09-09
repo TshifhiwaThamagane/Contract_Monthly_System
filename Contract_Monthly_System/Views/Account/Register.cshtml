@@ -1,0 +1,51 @@
+﻿@model Contract_Monthly_System.Models.User
+
+@{
+    ViewData["Title"] = "Login";
+}
+
+<h2>Register</h2>
+
+<form asp-action="Register" method="post">
+
+
+
+    <div class="form-group">
+        <label asp-for="userFullName">Enter Name</label>
+        <input asp-for="userFullName" type="fname" class="form-control" />
+    </div>
+
+   
+
+    <div class="form-group">
+        <label asp-for="Email">Enter Email</label>
+        <input asp-for="Email" type="email" class="form-control" />
+    </div>
+
+
+
+    <div class="form-group">
+        <label asp-for="Password">Enter password</label>
+        <input asp-for="Password" type="password" class="form-control" />
+    </div>
+
+
+
+
+    <div class="form-group">
+        <label asp-for="Password">Confirm Password</label>
+        <input asp-for="Password" type="password" class="form-control" />
+    </div>
+
+
+
+    <div class="form-group">
+        <label asp-for="Role"></label>
+        <select asp-for="Role" class="form-control">
+            <option value="Lecturer">Lecturer</option>
+            <option value="Coordinator">Programme Coordinator/Academic Manager</option>
+        </select>
+    </div>
+
+    <button type="submit" class="btn btn-success">Sign Up</button>
+</form>
